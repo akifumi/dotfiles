@@ -36,7 +36,7 @@ set visualbell
 
 set number
 syntax on
-colorscheme molokai
+"colorscheme molokai
 
 set tabstop=4
 set autoindent
