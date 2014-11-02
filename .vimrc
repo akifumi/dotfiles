@@ -4,12 +4,14 @@ filetype off
 
 if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim
-    call neobundle#rc(expand('~/.vim/bundle/'))
+    call neobundle#begin(expand('~/.vim/bundle/'))
+    NeoBundleFetch 'Shougo/neobundle.vim'
+    call neobundle#end()
 endif
 
 " originalrepos on github
 NeoBundle 'Shougo/neobundle.vim'
-NeoBundle 'Shougo/vimproc'
+"NeoBundle 'Shougo/vimproc'
 "NeoBundle 'Shougo/unite.vim'
 "NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'scrooloose/nerdtree'
