@@ -1,0 +1,3 @@
+export PATH="$PATH:$HOME/Works/tools/protoc-3/bin"
+export PATH="$PATH:$HOME/Works/tools/swift-protobuf/.build/release"
+export PATH="$PATH:$HOME/Works/tools/geth/1.8.3-329ac18e"
