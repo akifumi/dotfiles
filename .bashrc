@@ -5,5 +5,6 @@ source $DOTFILE/.bashrc.colors
 
 source $DOTFILE/.bashrc.rbenv
 source $DOTFILE/.bashrc.go
+source $DOTFILE/.bashrc.pyenv
 
 export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
