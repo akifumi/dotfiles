@@ -1,0 +1,2 @@
+PTORODIR="$HOME/Works/tools/protoc-3"
+export PATH=$PATH:$PROTODIR/bin
