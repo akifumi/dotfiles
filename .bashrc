@@ -1,6 +1,7 @@
 DOTFILE="$HOME/dotfiles"
 
 source $DOTFILE/.bashrc.alias
+source $DOTFILE/.bashrc.brew
 source $DOTFILE/.bashrc.colors
 
 source $DOTFILE/.bashrc.rbenv
