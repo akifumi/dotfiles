@@ -8,3 +8,5 @@ source $DOTFILE/.zshrc.rbenv
 source $DOTFILE/.zshrc.alias
 source $DOTFILE/.zshrc.android
 source $DOTFILE/.zshrc.brew
+source $DOTFILE/.zshrc.goenv
+source $DOTFILE/.zshrc.go
