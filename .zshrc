@@ -1,5 +1,7 @@
 export PATH="/usr/local/bin:$PATH"
 
+export RUBYOPT=-W0
+
 DOTFILE="$HOME/dotfiles"
 
 export ZSH_DISABLE_COMPFIX=true
