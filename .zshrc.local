@@ -1,0 +1,1 @@
+export PATH="$PATH:$HOME/Works/apple/swift-protobuf/.build/release"
