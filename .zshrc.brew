@@ -1,1 +1,5 @@
+# For Intel Mac
 export PATH="/usr/local/bin:$PATH"
+
+# For M1 Mac
+eval "$(/opt/homebrew/bin/brew shellenv)"
