@@ -14,4 +14,5 @@ source $DOTFILE/.zshrc.gcloud
 source $DOTFILE/.zshrc.goenv
 source $DOTFILE/.zshrc.go
 source $DOTFILE/.zshrc.nodenv
+source $DOTFILE/.zshrc.pyenv
 source $DOTFILE/.zshrc.local
