@@ -1,3 +1,4 @@
 export GOSUMDB=off
 export PATH="$PATH:$HOME/Works/apple/swift-protobuf/.build/release"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home"
+#export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home"
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
