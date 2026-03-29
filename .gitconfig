@@ -1,0 +1,23 @@
+[user]
+	name = Akifumi Fukaya
+	email = akifumi.fukaya@gmail.com
+# [url "git@github.com:"]
+#    	insteadOf = https://github.com/
+# [url "ssh://git@github.com/"]
+#     insteadOf = https://github.com/
+[core]
+	excludesfile = \"$HOME\"/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = \"$HOME\"/.stCommitMsg
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[alias]
+	st = status
