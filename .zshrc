@@ -16,5 +16,6 @@ source $DOTFILE/.zshrc.go
 source $DOTFILE/.zshrc.nodenv
 source $DOTFILE/.zshrc.pyenv
 source $DOTFILE/.zshrc.local
+source $DOTFILE/.zshrc.rust
 source $DOTFILE/.zshrc.windsurf
 source $DOTFILE/.zshrc.antigravity
