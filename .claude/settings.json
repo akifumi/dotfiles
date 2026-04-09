@@ -14,23 +14,21 @@
       "Bash(git ls-remote:*)",
       "Bash(git pull:*)",
       "Bash(git push:*)",
+      "Bash(git rebase:*)",
+      "Bash(git rev-parse:*)",
       "Bash(git stash:*)",
       "Bash(git status:*)",
       "Bash(git worktree:*)",
-
       "Bash(gh api:*)",
       "Bash(gh pr:*)",
-
       "Bash(go:*)",
       "Bash(buf:*)",
       "Bash(make:*)",
-
       "Bash(npm ci:*)",
       "Bash(npm i @x-asia/farm-api-typescript-openapi*)",
       "Bash(npm install @x-asia/farm-api-typescript-openapi*)",
       "Bash(npm run:*)",
       "Bash(npx:*)",
-
       "Bash(basename:*)",
       "Bash(cat:*)",
       "Bash(cd:*)",
@@ -45,9 +43,13 @@
       "Bash(grep:*)",
       "Bash(head:*)",
       "Bash(jq:*)",
+      "Bash(ln:*)",
       "Bash(ls:*)",
       "Bash(mkdir:*)",
       "Bash(open:*)",
+      "Bash(pwd:*)",
+      "Bash(realpath:*)",
+      "Bash(seq:*)",
       "Bash(sort:*)",
       "Bash(tail:*)",
       "Bash(tee:*)",
@@ -61,7 +63,6 @@
     "deny": [
       "Bash(git push --force*)",
       "Bash(git push -f*)",
-
       "Bash(chmod:*)",
       "Bash(dd:*)",
       "Bash(fdisk:*)",
@@ -71,19 +72,15 @@
       "Bash(rm -r:*)",
       "Bash(rm -rf:*)",
       "Bash(sudo:*)",
-
       "Bash(curl:*)",
       "Bash(nc:*)",
       "Bash(wget:*)",
-
       "Bash(npm publish:*)",
       "Bash(npm remove:*)",
       "Bash(npm uninstall:*)",
-
       "Bash(mongod:*)",
       "Bash(mysql:*)",
       "Bash(psql:*)",
-
       "Edit(.env)",
       "Edit(/etc/**)",
       "Edit(/usr/**)",
@@ -98,20 +95,20 @@
       "Write(.env*)",
       "Write(**/secrets/**)",
       "Write(~/.ssh/**)",
-
       "mcp__supabase__execute_sql"
     ]
   },
   "enabledPlugins": {
     "swift-lsp@claude-plugins-official": true,
     "code-simplifier@claude-plugins-official": true,
-    "rust-analyzer-lsp@claude-plugins-official": true
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true
   },
+  "effortLevel": "high",
   "enableallprojectmcpservers": true,
   "enabledmcpjsonservers": [
     "notion",
     "figma-remote-mcp"
   ],
-  "effortLevel": "high",
   "defaultMode": "default"
 }
