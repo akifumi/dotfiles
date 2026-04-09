@@ -11,6 +11,7 @@ source $DOTFILE/.zshrc.alias
 source $DOTFILE/.zshrc.android
 source $DOTFILE/.zshrc.gcloud
 source $DOTFILE/.zshrc.goenv
+source $DOTFILE/.zshrc.goenvrc
 source $DOTFILE/.zshrc.go
 source $DOTFILE/.zshrc.local
 source $DOTFILE/.zshrc.nodenv
