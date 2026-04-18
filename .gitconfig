@@ -21,3 +21,4 @@
 	useHttpPath = true
 [alias]
 	st = status
+	co = checkout
