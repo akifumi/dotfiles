@@ -1,7 +1,6 @@
 {
   "env": {
-    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
-    "CLAUDE_CODE_EFFORT_LEVEL": "max"
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
   },
   "permissions": {
     "allow": [
@@ -99,17 +98,20 @@
       "mcp__supabase__execute_sql"
     ]
   },
+  "agentPushNotifEnabled": true,
+  "defaultMode": "default",
+  "effortLevel": "xhigh",
   "enabledPlugins": {
     "swift-lsp@claude-plugins-official": true,
     "code-simplifier@claude-plugins-official": true,
     "rust-analyzer-lsp@claude-plugins-official": true,
     "gopls-lsp@claude-plugins-official": true
   },
-  "effortLevel": "max",
   "enableallprojectmcpservers": true,
   "enabledmcpjsonservers": [
     "notion",
     "figma-remote-mcp"
   ],
-  "defaultMode": "default"
+  "model": "claude-fable-5",
+  "ultracode": true
 }
